@@ -1,0 +1,186 @@
+.sidebar {
+    background-color: rgb(255, 255, 255);
+    width: 75px;
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s; 
+}
+
+.menubarText{
+    transition: 1s; 
+    display: none;
+}
+
+.menubarTextOpen{
+    transition: 1s; 
+}
+
+.logoSidebar{
+    display: flex;    
+    align-items: center;
+    height: 10%;
+    padding: 15px;
+}
+
+.logoTensorFlow {
+    width: 45px;
+}
+
+.textLogo{
+    display: none;
+    transition: 0.5s; 
+}
+
+.textLogoOpen{
+    color:rgb(238, 125, 5);
+    font-size: 15pt;
+    font-weight: 700;
+    transition: 0.5s; 
+    margin-left: 15px;
+}
+
+.menubar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:80vh;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    
+    padding: 15px;
+}
+
+.btnToggle{
+    position: fixed;
+    left: 85px;
+    transition: 0.5s; 
+    
+    width: 25px; 
+    height: 25px;
+    background-color: #ffffff; 
+    border-radius: 50%;
+    border: none; 
+     
+}
+
+.btnToggle:hover{
+    position: fixed;
+    left: 85px;
+    transition: 0.5s; 
+    
+    width: 25px; 
+    height: 25px;
+    background-color: #3f3b3b; 
+    border-radius: 50%;
+    border: none; 
+     
+}
+
+.btnToggleOpen {
+    position: fixed;
+    left: 238px;
+    transition: 0.5s; 
+    width: 25px; 
+    height: 25px;
+    background-color: #242424; 
+    border-radius: 50%; 
+    border: none;
+}
+
+.iconToggle{
+    color: #242424;
+}
+
+.iconToggleOpen{
+    color: #ffffff;
+}
+
+.divRoutes, .divBottomRoutes {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.divRoutes:hover{
+    background-color: rgba(255, 133, 2, 0.212);
+    border-radius: 10px;
+}
+
+
+.divBottomRoutes:hover{
+    background-color: rgba(255, 133, 2, 0.212);
+    border-radius: 10px;
+}
+
+.divRoutes:active{
+    background-color: rgba(255, 165, 69, 0.819);
+    border-radius: 10px;
+}
+
+.divBottomRoutes:active{
+    background-color: rgba(255, 165, 69, 0.819);
+    border-radius: 10px;
+}
+
+.menubarTextOpen{
+    font-weight: 600;
+    font-size: 12pt;
+}
+
+.iconRoutes, .iconBottomRoutes {
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-top: 2px solid rgba(160, 160, 160, 0.258);
+    transition: 0.5s; 
+}
+
+.profile:hover {
+    padding: 15px;
+    background-color: rgba(255, 145, 2, 0.341);
+    transition: 0.5s;  
+}
+
+.picProfile {
+    width: 45px;
+    height: 45PX;
+    border-radius: 10px;
+}
+
+.textProfile {
+    display: none;
+    transition: 0.5s; 
+}
+
+.textProfileOpen {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    transition: 0.5s; 
+}
+
+.typeProfile {
+    font-size: 11pt;
+    white-space: nowrap;
+    color: rgb(162, 161, 161);
+    transition: 0.5s; 
+    margin: 0;
+}
+
+.nameProfile{
+    font-size: 13pt;
+    white-space: nowrap;
+    color: rgb(254, 114, 14);
+    font-weight: 640;
+    margin-top: -6px;
+}
